@@ -16,11 +16,10 @@ Logo Custom: Menggunakan font "Pixelify Sans" untuk tampilan retro.
 
 Background Cinematic: Menggunakan gambar latar dengan efek overlay.
 
-Tombol Interaktif: Tombol "Start Journey" yang dapat memainkan/menghentikan musik tema.
+Tombol Interaktif: Tombol "Start Journey" yang dapat memainkan tema musik.
 
 Audio Support: Musik latar yang dapat dimainkan langsung dari halaman.
 
-Responsive Design: Tampilan yang menyesuaikan berbagai ukuran layar.
 
 🛠️ Tech Stack
 
