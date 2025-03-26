@@ -1,0 +1,95 @@
+/* ===== RESET & BASE STYLES ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+/* ===== BACKGROUND STYLE ===== */
+.background {
+    min-height: 100vh;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url('img/2d.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ===== HEADER STYLE ===== */
+.header {
+    padding: 2rem 3rem;
+    display: flex;    
+    justify-content: flex-end;
+    margin-top: 0.5rem;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin-left: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #f0a500;
+}
+
+.logo {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 2.8em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: rgb(35, 210, 163); 
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+
+/* ===== MAIN CONTENT ===== */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-button {
+    background: rgba(240, 165, 0, 0.8);
+    color: white;
+    border: none;
+    padding: 1.5rem 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.play-button:hover {
+    background: rgba(240, 165, 0, 1);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* ===== FOOTER STYLE ===== */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 0.9rem;
+}

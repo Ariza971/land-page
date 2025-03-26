@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dreamwalker: The Last Journey</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- 1 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!-- 2 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background">
+        <header class="header"> 
+            <div class="logo">Dreamwalker</div>
+            <nav>
+                <a href="https://www.stardewvalley.net/" class="nav-link">Download</a>
+                <a href="#about" class="nav-link" onclick="AboutInfo()">About</a>
+                <a href="https://github.com/Ariza971" class="nav-link">Contact</a>
+                <a href="#support" class="nav-link" onclick="StayTunedMessage()">Support Me </a>
+            </nav>
+        </header>
+        
+        <main>
+            <button class="play-button" onclick="playThemeSong()">
+                ▶ Start Journey
+            </button>
+        </main>
+
+        <footer>
+            <p>© 2025 Northstar Studios | Alpha Test Build</p>
+        </footer>
+    </div>
+
+    <audio id="theme-song" src="audio/xDeviruchi_TakeaRest.wav"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
