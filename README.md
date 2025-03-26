@@ -1,3 +1,7 @@
+## 🌟 Preview
+![Dreamwalker Landing Page](img/preview.png)
+
+
 Dreamwalker: The Last Journey - Landing Page
 
 📌 Project Overview
